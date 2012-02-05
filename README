@@ -2,3 +2,5 @@ Basic example using CSS 3d transformations to ahcieve panoramic 3d effect.
 Joins six images to a cube and places viewpoint inside the cube.
 
 See included stylesheets for more details.
+
+Only tested on Safari on a Mac.
