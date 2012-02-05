@@ -29,11 +29,8 @@ body { background-color: #e0e0e0; }
 	-webkit-transform: translateX(0px) translateY(0px) translateZ(300px); 
 }
 
-#rotor-x { 
-	-webkit-transform-style: preserve-3d; 
-} 
 
-#rotateX { 
+#spin-x { 
 	position: relative; 
 	width: 100%; 
 	-webkit-transform-style: preserve-3d;
@@ -42,11 +39,7 @@ body { background-color: #e0e0e0; }
 	-webkit-animation-iteration-count: infinite; 
 } 
 
-#rotor-y { 
-	-webkit-transform-style: preserve-3d; 
-} 
-
-#rotateY { 
+#spin-y { 
 	position: relative; 
 	width: 100%; 
 	-webkit-transform-style: preserve-3d;
@@ -69,7 +62,6 @@ body { background-color: #e0e0e0; }
 	Rotate sides to face INWARDS (ex. front face must be turned 180deg around the Y axis)
 	and translate them to form a cube.
 */ 
-
 img {
 	width: 600;
 	height: 600;
