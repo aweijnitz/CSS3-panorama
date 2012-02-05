@@ -2,27 +2,22 @@
 <html>
 <head>
 <link rel="stylesheet" href="styles/3d-panorama-static.css" type="text/css"/>
-
 </head>
 <body>
 
-<div id="container-3d">
+<!-- Controls positioning on page and sets the perspective factor -->
+<div id="container-3d"> 
+	<!-- Positions the cube in space -->
 	<div id="position-3d">
-		<div id="rotor-x">
-			<div id="rotateX">
-				<div id="rotor-y">
-					<div id="rotateY">
-						<div id="cube">
-							<img src="images/UP.png" id="cube-top" class="face">
-							<img src="images/DOWN.png" id="cube-bottom" class="face">
-							<img src="images/LEFT.png" id="cube-left" class="face">
-							<img src="images/RIGHT.png" id="cube-right" class="face">
-							<img src="images/FRONT.png" id="cube-front" class="face">
-							<img src="images/BACK.png" id="cube-back" class="face">
-						</div>
-					</div>
-				</div>
-			</div>
+		<!-- Controls relative position of cube (centered around local origin) --> 
+		<div id="cube">
+			<!-- Each side of the cuve is rotated to face inwards. See stylesheet.  -->
+			<img src="images/UP.png" id="cube-top" class="face">
+			<img src="images/DOWN.png" id="cube-bottom" class="face">
+			<img src="images/LEFT.png" id="cube-left" class="face">
+			<img src="images/RIGHT.png" id="cube-right" class="face">
+			<img src="images/FRONT.png" id="cube-front" class="face">
+			<img src="images/BACK.png" id="cube-back" class="face">
 		</div>
 	</div>
 </div>
